@@ -2,7 +2,7 @@ import random
 from pymongo import MongoClient
 
 
-uri = "mongodb+srv://Eduardo_jorge:455466@clusterhospital.kmxto.mongodb.net"
+uri = "mongodb+srv://Eduardo_jorge:YOURS_PASSWORD@clusterhospital.kmxto.mongodb.net"
 client = MongoClient(uri)
 
 db = client['UNIMED'] # criacao do bando de dados
